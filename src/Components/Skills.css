@@ -1,0 +1,21 @@
+.outer1 {
+    width: 100%;
+    height: 5px;
+    background-color: red;
+}
+
+.inner1 {
+    height: 5px;
+    animation: innerrrrrr1 3s infinite ease-in-out;
+    background-color: yellow;
+}
+
+@keyframes innerrrrrr1 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
